@@ -1,0 +1,56 @@
+.section-bg {
+  background-image: url(../images/banner.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form {
+  max-width: 570px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  @media (max-width: 767px) {
+    gap: 0;
+  }
+
+  &__input {
+    width: 270px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid $dark-gray;
+    border-radius: 3px;
+    outline: none;
+    color: $dark-gray;
+
+    background: none;
+    @media (max-width: 767px) {
+      width: 100%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+    }
+  }
+
+  &__btn {
+    border-radius: 5px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: $green;
+    font-weight: bold;
+    font-size: 14px;
+    color: $white;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+  }
+}

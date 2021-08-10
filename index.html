@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портал «Music Box» Игорь Александров</title>
+    <link href="src/css/app.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container _container">
+        <div class="header__main d-flex align-center flex-column-lg">
+          <div class="">
+            <img src="src/images/logo.svg" class="header__logo" />
+            <span class="fz-11 fw-b text-uppercase text-white no-wrap"
+              >Music Box</span
+            >
+          </div>
+          <nav class="header__menu flex-column-lg pt-nav-lg nav-lg order-3-lg">
+            <a href="index.html" class="fw-b text-white">Главная</a>
+            <a href="artist.html">Каталог</a>
+            <a href="#">Исполнители</a>
+            <a href="#">Контакты</a>
+          </nav>
+
+          <div class="header__search">
+            <input
+              type="text"
+              placeholder="Поиск..."
+              class="header__search__input"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="page-description" class="section-bg padding-vertical-200">
+      <div class="_container d-flex flex-column align-center">
+        <h1 class="text-center">Онлайн музыка где угодно</h1>
+        <h2 class="mb-30 text-center">Без ограничений</h2>
+        <p class="mb-18 text-center">
+          Получите доступ всего за несколько шагов. Заполните форму ниже и
+          откройте мир музыки
+        </p>
+        <form>
+          <div class="form">
+            <input type="text" class="form__input" placeholder="Имя" />
+            <input type="text" class="form__input" placeholder="Email" />
+          </div>
+          <input type="submit" class="form__btn" value="Получить доступ" />
+        </form>
+      </div>
+    </section>
+
+    <main>
+      <section id="page-pricing" class="_container padding-vertical-100">
+        <h2 class="pb-50 text-center">Формы подписки</h2>
+
+        <div class="pricing">
+          <div class="pricing__item bg-free">
+            <h3 class="pricing__title">Бесплатная</h3>
+            <div class="pricing__value pb-40">
+              <span class="fz-60 lh-60">250 </span>
+              <span class="fz-30">руб.</span>
+            </div>
+
+            <input type="button" value="Оформить" class="pricing__button" />
+
+            <p class="pricing__footer">
+              Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей
+              коллекции музыки. Присутствует реклама
+            </p>
+          </div>
+
+          <div class="pricing__item bg-standard">
+            <h3 class="pricing__title">Стандартная</h3>
+            <div class="pricing__value pb-40">
+              <span class="fz-60 lh-60">250 </span>
+              <span class="fz-30">руб.</span>
+            </div>
+            <input type="button" value="Оформить" class="pricing__button" />
+            <p class="pricing__footer">
+              Оплата в месяц. Стандартный тариф предоставляет доступ ко всей
+              коллекции музыки в среднем качестве
+            </p>
+          </div>
+
+          <div class="pricing__item bg-premium">
+            <h3 class="pricing__title">Премиум</h3>
+            <div class="pricing__value pb-40">
+              <span class="fz-60 lh-60">500</span
+              ><span class="fz-30">руб.</span>
+            </div>
+
+            <input type="button" value="Оформить" class="pricing__button" />
+
+            <p class="pricing__footer">
+              Оплата в месяц. Премиум тариф предоставляет доступ ко всей
+              коллекции музыки в высоком качестве
+            </p>
+          </div>
+        </div>
+        <p class="fz-16 text-center pt-45">
+          На всех тарифах возможно прослушивание музыки с мобильных устройств.
+          На премиум тарифе вы можете скачать все композиции на ваше устройство
+          и слушать музыку без подключения к интернету
+        </p>
+      </section>
+
+      <section id="news" class="_container">
+        <div class="news"> 
+          <h2 class="pb-50 text-center">Последние новости</h2>
+          <div class="news__item">
+            <img
+              src="src/images/Music to Be Murdered By.png"
+              alt="news1"
+              class="news__image"
+            />
+  
+            <div class="news__body">
+              <h3 class="news__title mb-30">Music to Be Murdered By</h3>
+              <p class="news__text pb-25">
+                Новый альбом Eminem «Music to Be Murdered By» уже доступен в нашем
+                сервисе. На альбоме вас ждёт 20 новых треков.
+              </p>
+              <div class="news__footer mb-45">
+                  <img src="src/images/avatar.png" alt="avatar" width="19px" height="19px" />
+                  <p class="news__author">Music box</p>
+                  <p class="">17/01/2020</p>
+                
+                  
+              </div>
+              <a href="#" class="news__button">К альбому</a>
+            </div>
+          </div>
+  
+          <div class="news__item pt-70">
+            <div class="news__body order-lg">
+              <h3 class="news__title mb-30">Ordinary Man</h3>
+              <p class="news__text pb-25">
+                Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man. Слушайте в числе первых на Music Box
+              </p>
+              <div class="news__footer mb-45">
+                  <img src="src/images/avatar.png" alt="avatar" width="19px" height="19px" />
+                  <p class="news__author">Music box</p>
+                  <p class="">17/01/2020</p>
+                
+                  
+              </div>
+              <a href="#" class="news__button">К альбому</a>
+            </div>
+            <img
+              src="src/images/Ordinary Man.png"
+              alt="news1"
+              class="news__image"
+            />
+          </div>
+        </section>
+  
+        <section id="page-app" class="_container padding-vertical-100">
+          <h2 class="pb-50 text-center">Мобильное приложение</h2>
+          <div class="d-flex gap-50 mobile-lg">
+            <div class="w-50 mobile-width-lg align-center order-lg">
+              <p class="pb-25 fz-16">
+                Воспользуйтесь нашим мобильным приложением. Оно позволит слушать
+                музыку с любого устройства на базе операционных систем Androind и
+                iOS
+              </p>
+              <p class="pb-25 fz-16" >
+                С тарифом «Премиум» приложение позволяет скачивать все композиции
+                из нашей коллекции. Вы можете слушать музыку даже без интернета.
+              </p>
+              <input type="button" value="Скачать" class="btn-download" />
+            </div>
+            <div class="d-flex w-50 justify-center mobile-width-lg ">
+              <img src="src/images/iphone.png" alt="iphone" />
+            </div>
+          </div>
+        </section></div>
+    </main>
+
+    <footer class="footer bg-gradient">
+      <div class="_container">
+        <div class="footer__wrapper d-flex justify-between">
+          <div class="footer__column pb-30">
+            <h2 class="footer__heading pb-15">О нас</h2>
+            <div class="d-flex flex-column">
+              <a href="#" class="footer__link">История компании</a>
+              <a href="#" class="footer__link">Карьера</a>
+              <a href="#" class="footer__link">Особенности</a>
+              <a href="#" class="footer__link">Пресса</a>
+            </div>
+          </div>
+          <div class="footer__column pb-30">
+            <h2 class="footer__heading pb-15">Поддержка</h2>
+            <div class="d-flex flex-column">
+              <a href="#" class="footer__link">База знаний</a>
+              <a href="#" class="footer__link">Тарифы</a>
+              <a href="#" class="footer__link">Мобильное приложени</a>
+              <a href="#" class="footer__link">Условия использования</a>
+            </div>
+          </div>
+          <div class="footer__column pb-30">
+            <h2 class="footer__heading pb-15">Контакты</h2>
+            <div class="d-flex flex-column pb-30">
+              <a href="mailto:hello@music.box" class="footer__link"
+                >hello@music.box</a
+              >
+              <a href="#" class="footer__link"
+                >Russia, Moscow. Music Box studio</a
+              >
+              <a href="tel:+74999999999" class="footer__link"
+                >+ 7 499 999 99 99</a
+              >
+            </div>
+          </div>
+          <div class="footer__column pb-30">
+            <h2 class="footer__heading pb-15">Подписывайтесь</h2>
+            <div class="d-flex pb-30 gap-24">
+              <a href="#" class="footer__link"
+                ><img src="src/images/Google+.png" alt="google"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img src="src/images/Twitter.png" alt="twitter"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img src="src/images/Facebook.png" alt="facebook"
+              /></a>
+              <a href="#"><img src="src/images/Instagram.png" alt="instagram" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="" />
+      <div class="_container footer__menu d-flex">
+        <a href="#" class="footer__link">Магазин</a>
+        <a href="#" class="footer__link">Обслуживание</a>
+        <a href="#" class="footer__link">Блог</a>
+        <a href="#" class="footer__link">Поддержка</a>
+        <a href="#" class="footer__link">Контакты</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+.bg-gradient {
+  background: -webkit-linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%);
+  background: -webkit-linear-gradient(0.98deg, #5328a1 32.83%, #95390c 81.56%);
+  background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+
+  &__wrapper {
+    @media (max-width: 1023px) {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__column {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    @media (min-width: 768px) and (max-width: 1023px) {
+      width: 50%;
+    }
+
+    @media (max-width: 767px) {
+      width: 80%;
+    }
+  }
+
+  &__heading {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__link {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    text-decoration: none;
+    color: $gray;
+  }
+
+  &__menu {
+    gap: 16px;
+    padding-top: 30px;
+    @media (max-width: 767px) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,172 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $dark-gray;
+  background: $black;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  color: $white;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  @media (min-width: 320px) and (max-width: 424px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  @media (min-width: 320px) and (max-width: 424px) {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+._container {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    max-width: 768px;
+  }
+  @media (min-width: 425px) and (max-width: 767px) {
+    max-width: 425px;
+  }
+
+  @media (min-width: 375px) and (max-width: 424px) {
+    max-width: 375px;
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    max-width: 320px;
+  }
+  @media (max-width: 1023px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: $white;
+}
+
+.fz-11 {
+  font-size: 11px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-30 {
+  font-size: 30px;
+}
+
+.fz-60 {
+  font-size: 60px;
+}
+
+.lh-60 {
+  line-height: 60px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.order-lg {
+  @media (max-width: 1023px) {
+    order: 1;
+  }
+}
+
+@media (max-width: 1023px) {
+  .mobile-width-lg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .mobile-lg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.btn-download {
+  height: 53px;
+  width: 25%;
+  background-color: #95390c;
+  color: $white;
+  border-radius: 32px;
+  border: none;
+}
