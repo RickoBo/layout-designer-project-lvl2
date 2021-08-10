@@ -1,24 +1,27 @@
 body {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: $dark-gray;
-  background: $black;
   position: relative;
+
+  color: $dark-gray;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+
+  background: $black;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  text-transform: uppercase;
   color: $white;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 h1 {
   font-size: 60px;
   line-height: 90px;
+
   @media (min-width: 320px) and (max-width: 424px) {
     font-size: 30px;
     line-height: 45px;
@@ -28,6 +31,7 @@ h1 {
 h2 {
   font-size: 38px;
   line-height: 57px;
+
   @media (min-width: 320px) and (max-width: 424px) {
     font-size: 18px;
     line-height: 27px;
@@ -35,13 +39,14 @@ h2 {
 }
 
 ._container {
-  max-width: 1200px;
   min-width: 320px;
+  max-width: 1200px;
   margin: 0 auto;
 
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 768px;
   }
+
   @media (min-width: 425px) and (max-width: 767px) {
     max-width: 425px;
   }
@@ -49,31 +54,26 @@ h2 {
   @media (min-width: 375px) and (max-width: 424px) {
     max-width: 375px;
   }
+
   @media (min-width: 320px) and (max-width: 374px) {
     max-width: 320px;
   }
+
   @media (max-width: 1023px) {
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
 .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-column {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .align-center {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -87,10 +87,6 @@ h2 {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.align-center {
-  align-items: center;
 }
 
 .text-center {
@@ -155,18 +151,18 @@ h2 {
 
 @media (max-width: 1023px) {
   .mobile-lg {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
   }
 }
 
 .btn-download {
-  height: 53px;
   width: 25%;
-  background-color: #95390c;
-  color: $white;
-  border-radius: 32px;
+  height: 53px;
+
   border: none;
+  border-radius: 32px;
+
+  color: $white;
+
+  background-color: #95390c;
 }

@@ -1,32 +1,29 @@
 .header {
   position: absolute;
-  width: 100%;
+
   top: 25px;
+
+  width: 100%;
 
   @media (min-width: 1024px) and (max-width: 1280px) {
     ._container {
       width: 1024px;
     }
   }
+
   @media (max-width: 1023px) {
     .flex-column-lg {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
       flex-direction: column;
       align-items: flex-start;
     }
+
     .nav-lg {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
       flex-direction: column;
-      -webkit-box-align: start;
-      -ms-flex-align: start;
+
+      gap: 0;
 
       margin: 10px 0 18px 0;
 
-      gap: 0;
       font-weight: bold;
     }
   }
@@ -35,6 +32,7 @@
     width: 24px;
     height: 24px;
     margin-right: 16px;
+
     vertical-align: middle;
   }
 
@@ -42,18 +40,20 @@
     display: flex;
     gap: 24px;
     margin-left: 90px;
+
     a {
-      font-size: 11px;
-      text-decoration: none;
       color: $dark-gray;
+      font-size: 11px;
       text-transform: uppercase;
+      text-decoration: none;
     }
   }
 
   &__search {
     display: flex;
-    width: 50%;
     justify-content: flex-end;
+    width: 50%;
+
     @media (max-width: 767px) {
       width: 100%;
     }
@@ -61,18 +61,26 @@
     &__input {
       width: 250px;
       height: 25px;
-      background: $dark;
-      border-radius: 50px;
-      border-style: none;
-      text-transform: uppercase;
+
       padding: 5px 10px;
-      font-weight: bold;
-      outline: none;
+      border-style: none;
+      border-radius: 50px;
+
       color: $white;
+
+      font-weight: bold;
+
+      text-transform: uppercase;
+
+      background: $dark;
+
+      outline: none;
+
       @media (max-width: 767px) {
         width: 100%;
       }
     }
+
     @media (max-width: 1023px) {
       justify-content: flex-start;
     }

@@ -12,31 +12,26 @@
 
 .pricing {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   @media (max-width: 767px) {
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   &__item {
-    padding: 1.5rem;
-    border-radius: 1rem;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 30%;
 
+    padding: 1.5rem;
+    border-radius: 1rem;
+
     color: $white;
+
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @media (max-width: 1023px) {
       margin-bottom: 40px;
@@ -45,9 +40,11 @@
     @media (min-width: 768px) and (max-width: 1023px) {
       width: 32%;
     }
+
     @media (min-width: 425px) and (max-width: 767px) {
       width: 80%;
     }
+
     @media (min-width: 375px) and (max-width: 424px) {
       width: 100%;
     }
@@ -59,42 +56,51 @@
 
   &__title {
     padding-bottom: 200px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: lighter;
+
     color: $white;
+    font-weight: lighter;
     font-size: 24px;
     line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
     @media (max-width: 424px) {
+      font-weight: bold;
       font-size: 16px;
       line-height: 24px;
-      font-weight: bold;
     }
   }
 
   &__value {
     display: flex;
+    gap: 11px;
     align-items: flex-start;
     justify-content: center;
+
     text-transform: uppercase;
-    gap: 11px;
   }
 
   &__button {
+    width: 100%;
+    height: 65px;
     border: 1px solid $white;
     border-radius: 5px;
-    background: transparent;
-    font-size: 16px;
+
     color: #fff;
+
+    font-size: 16px;
+
     text-align: center;
+
     text-transform: uppercase;
-    height: 65px;
-    width: 100%;
+
+    background: transparent;
   }
 
   &__footer {
     padding-top: 65px;
     padding-bottom: 40px;
+
     font-size: 12.8px;
     line-height: 1.5;
     text-align: center;
