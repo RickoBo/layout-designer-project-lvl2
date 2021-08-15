@@ -26,12 +26,22 @@
     }
   }
 
-  &__logo {
-    width: 24px;
-    height: 24px;
-    margin-right: 12px;
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    vertical-align: middle;
+    @media (max-width: 1023px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__logo {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   &__menu {
