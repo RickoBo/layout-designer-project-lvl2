@@ -9,52 +9,54 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__container _container">
-        <div class="header__main d-flex align-center flex-column-lg">
+      <div class="header__container container">
+        <div class=" header__main d-flex align-center flex-column-lg">
           <div class="">
             <img src="images/logo.svg" class="header__logo" />
-            <span class="fz-11 fw-b text-uppercase text-white no-wrap"
+            <span class="fz-11 fw-b text-uppercase text-white"
               >Music Box</span
             >
           </div>
-          <nav class="header__menu flex-column-lg pt-nav-lg nav-lg order-3-lg">
-            <a href="index.html" class="fw-b text-white">Главная</a>
+          
+            <nav class="header__menu flex-column-lg pt-nav-lg nav-lg order-3-lg">
+            <a href="index.html" class="text-white">Главная</a>
             <a href="artist.html">Каталог</a>
             <a href="#">Исполнители</a>
             <a href="#">Контакты</a>
           </nav>
 
-          <div class="header__search">
+          
             <input
               type="text"
               placeholder="Поиск..."
-              class="header__search__input"
-            />
-          </div>
+              class="header__search"
+            /></div>
+          
         </div>
       </div>
     </header>
 
     <section id="page-description" class="section-bg padding-vertical-200">
-      <div class="_container d-flex flex-column align-center">
-        <h1 class="text-center">Онлайн музыка где угодно</h1>
-        <h2 class="mb-30 text-center">Без ограничений</h2>
-        <p class="mb-18 text-center">
+      <div class="container subscription">
+        <h1 class="subscription__title">Онлайн музыка где угодно</h1>
+        <h2 class="subscription__subtitle">Без ограничений</h2>
+        <p class="subscription__text">
           Получите доступ всего за несколько шагов. Заполните форму ниже и
           откройте мир музыки
         </p>
         <form>
-          <div class="form">
-            <input type="text" class="form__input" placeholder="Имя" />
-            <input type="text" class="form__input" placeholder="Email" />
+          <div class="subscription__form">
+            <input type="text" class="subscription__input" placeholder="Имя" />
+            <input type="text" class="subscription__input" placeholder="Email" />
+            <input type="submit" class="subscription__btn" value="Получить доступ" />
           </div>
-          <input type="submit" class="form__btn" value="Получить доступ" />
+          
         </form>
       </div>
     </section>
 
     <main>
-      <section id="page-pricing" class="_container padding-vertical-100">
+      <section id="page-pricing" class="container padding-vertical-100">
         <h2 class="pb-50 text-center">Формы подписки</h2>
 
         <div class="pricing">
@@ -108,7 +110,7 @@
         </p>
       </section>
 
-      <section id="news" class="_container">
+      <section id="news" class="container">
         <div class="news"> 
           <h2 class="pb-50 text-center">Последние новости</h2>
           <div class="news__item">
@@ -158,7 +160,7 @@
           </div>
         </section>
   
-        <section id="page-app" class="_container padding-vertical-100">
+        <section id="page-app" class="container padding-vertical-100">
           <h2 class="pb-50 text-center">Мобильное приложение</h2>
           <div class="d-flex gap-50 mobile-lg">
             <div class="w-50 mobile-width-lg align-center order-lg">
@@ -181,7 +183,7 @@
     </main>
 
     <footer class="footer bg-gradient">
-      <div class="_container">
+      <div class="container">
         <div class="footer__wrapper d-flex justify-between">
           <div class="footer__column pb-30">
             <h2 class="footer__heading pb-15">О нас</h2>
@@ -233,7 +235,7 @@
         </div>
       </div>
       <hr class="" />
-      <div class="_container footer__menu d-flex">
+      <div class="container footer__menu d-flex">
         <a href="#" class="footer__link">Магазин</a>
         <a href="#" class="footer__link">Обслуживание</a>
         <a href="#" class="footer__link">Блог</a>

@@ -5,8 +5,8 @@
 
   width: 100%;
 
-  @media (min-width: 1024px) and (max-width: 1280px) {
-    ._container {
+  @media (min-width: 1023px) and (max-width: 1280px) {
+    .container {
       width: 1024px;
     }
   }
@@ -23,15 +23,13 @@
       gap: 0;
 
       margin: 10px 0 18px 0;
-
-      font-weight: bold;
     }
   }
 
   &__logo {
     width: 24px;
     height: 24px;
-    margin-right: 16px;
+    margin-right: 12px;
 
     vertical-align: middle;
   }
@@ -41,6 +39,9 @@
     gap: 24px;
     margin-left: 90px;
 
+    :first-child {
+      color: $white;
+    }
     a {
       color: $dark-gray;
       font-size: 11px;
@@ -50,35 +51,23 @@
   }
 
   &__search {
-    display: flex;
-    justify-content: flex-end;
-    width: 50%;
+    width: 250px;
+    height: 25px;
+
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 50px;
+
+    color: $white;
+
+    text-transform: uppercase;
+
+    background: $dark;
+
+    outline: none;
 
     @media (max-width: 767px) {
       width: 100%;
-    }
-
-    &__input {
-      width: 250px;
-      height: 25px;
-
-      padding: 5px 10px;
-      border-style: none;
-      border-radius: 50px;
-
-      color: $white;
-
-      font-weight: bold;
-
-      text-transform: uppercase;
-
-      background: $dark;
-
-      outline: none;
-
-      @media (max-width: 767px) {
-        width: 100%;
-      }
     }
 
     @media (max-width: 1023px) {
