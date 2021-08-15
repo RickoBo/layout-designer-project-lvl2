@@ -16,14 +16,13 @@
   justify-content: space-between;
 
   @media (max-width: 767px) {
-    flex-wrap: wrap;
     justify-content: center;
   }
 
   &__item {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 30.5%;
 
     padding: 1.5rem;
     border-radius: 1rem;
@@ -55,7 +54,7 @@
   }
 
   &__title {
-    padding-bottom: 200px;
+    margin-bottom: 200px;
 
     color: $white;
     font-weight: lighter;
@@ -95,11 +94,12 @@
     text-transform: uppercase;
 
     background: transparent;
+
+    margin-bottom: 65px;
   }
 
   &__footer {
-    padding-top: 65px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 
     font-size: 12.8px;
     line-height: 1.5;
