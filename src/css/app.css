@@ -320,6 +320,9 @@ h2 {
 .mb-16 {
   margin-bottom: 16px; }
 
+.mb-25 {
+  margin-bottom: 25px; }
+
 .mb-48 {
   margin-bottom: 48px; }
 
@@ -672,11 +675,18 @@ h2 {
 .footer {
   padding-top: 3rem;
   padding-bottom: 2rem; }
-  @media (max-width: 1023px) {
-    .footer__wrapper {
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-      width: 100%; } }
+  .footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media (max-width: 1023px) {
+      .footer__wrapper {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: 100%; } }
   .footer__column {
     display: -webkit-box;
     display: -ms-flexbox;

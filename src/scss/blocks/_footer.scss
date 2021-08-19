@@ -7,6 +7,8 @@
   padding-bottom: 2rem;
 
   &__wrapper {
+    display: flex;
+    justify-content: space-between;
     @media (max-width: 1023px) {
       flex-wrap: wrap;
       width: 100%;
