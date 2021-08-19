@@ -719,10 +719,24 @@ h2 {
   background-position: center;
   background-size: cover; }
 
+.artist-name {
+  margin-top: 50px;
+  margin-bottom: 16px; }
+  @media (max-width: 767px) {
+    .artist-name {
+      margin-top: 25px; } }
+
 .artist-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 200px;
+  height: 62px;
   padding: 20px 30px 20px 67px;
-  font-size: 12.8px;
+  font-size: 12px;
   text-transform: uppercase;
   border-radius: 5px;
   border: none;
@@ -733,22 +747,22 @@ h2 {
   background-color: #5328a1; }
   .play-btn::before {
     position: absolute;
-    content: "";
     background-image: url(../images/play-button.svg);
     left: 31px;
     width: 20px;
-    height: 20px; }
+    height: 20px;
+    content: ""; }
 
 .like-btn {
   position: relative;
   background-color: #95390c; }
   .like-btn::before {
     position: absolute;
-    content: "";
     background-image: url(../images/heart.svg);
     left: 31px;
     width: 20px;
-    height: 20px; }
+    height: 20px;
+    content: ""; }
 
 .track {
   display: -webkit-box;

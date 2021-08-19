@@ -5,10 +5,23 @@
   background-size: cover;
 }
 
+.artist-name {
+  margin-top: 50px;
+  margin-bottom: 16px;
+
+  @media (max-width: 767px) {
+    margin-top: 25px;
+  }
+}
+
 .artist-btn {
+  display: flex;
+  align-items: center;
+
   width: 200px;
+  height: 62px;
   padding: 20px 30px 20px 67px;
-  font-size: 12.8px;
+  font-size: 12px;
   text-transform: uppercase;
   border-radius: 5px;
   border: none;
@@ -22,11 +35,12 @@
 
   &::before {
     position: absolute;
-    content: "";
+
     background-image: url(../images/play-button.svg);
     left: 31px;
     width: 20px;
     height: 20px;
+    content: "";
   }
 }
 
@@ -36,10 +50,11 @@
 
   &::before {
     position: absolute;
-    content: "";
+
     background-image: url(../images/heart.svg);
     left: 31px;
     width: 20px;
     height: 20px;
+    content: "";
   }
 }
