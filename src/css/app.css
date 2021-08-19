@@ -345,9 +345,6 @@ h2 {
 .mb-45 {
   margin-bottom: 45px; }
 
-.mt-64 {
-  margin-top: 64px; }
-
 .mb-100 {
   margin-bottom: 100px; }
 
@@ -543,9 +540,10 @@ h2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px; }
   @media (max-width: 767px) {
     .pricing {
       -webkit-box-pack: center;
@@ -566,9 +564,6 @@ h2 {
     color: #fff;
     background-repeat: no-repeat;
     background-size: cover; }
-    @media (max-width: 1023px) {
-      .pricing__item {
-        margin-bottom: 40px; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       .pricing__item {
         width: 32%; } }
@@ -582,7 +577,7 @@ h2 {
       .pricing__item {
         width: 100%; } }
   .pricing__title {
-    margin-top: 24px;
+    margin-top: 16px;
     margin-bottom: 200px;
     color: #fff;
     font-weight: normal;
