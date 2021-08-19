@@ -543,12 +543,15 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 50px; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   @media (max-width: 767px) {
     .pricing {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; } }
+              justify-content: center;
+      gap: 50px; } }
   .pricing__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -572,7 +575,7 @@ h2 {
         width: 80%; } }
     @media (min-width: 375px) and (max-width: 424px) {
       .pricing__item {
-        width: 100%; } }
+        width: 99%; } }
     @media (min-width: 320px) and (max-width: 374px) {
       .pricing__item {
         width: 100%; } }

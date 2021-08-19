@@ -14,10 +14,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
 
   @media (max-width: 767px) {
     justify-content: center;
+    gap: 50px;
   }
 
   &__item {
@@ -43,7 +44,7 @@
     }
 
     @media (min-width: 375px) and (max-width: 424px) {
-      width: 100%;
+      width: 99%;
     }
 
     @media (min-width: 320px) and (max-width: 374px) {
