@@ -1,0 +1,25 @@
+.track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  line-height: 19.2px;
+
+  &__cover {
+    width: 55px;
+    height: 55px;
+    margin-right: 16px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

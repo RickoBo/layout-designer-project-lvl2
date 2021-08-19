@@ -1,0 +1,45 @@
+.artist-bg {
+  background-image: url(../images/MortenHarket.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-btn {
+  width: 200px;
+  padding: 20px 30px 20px 67px;
+  font-size: 12.8px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+
+  color: $white;
+}
+
+.play-btn {
+  position: relative;
+  background-color: $purple;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/play-button.svg);
+    left: 31px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.like-btn {
+  position: relative;
+  background-color: $red;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/heart.svg);
+    left: 31px;
+    width: 20px;
+    height: 20px;
+  }
+}

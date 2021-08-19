@@ -317,6 +317,9 @@ h2 {
 .mb-16 {
   margin-bottom: 16px; }
 
+.mb-48 {
+  margin-bottom: 48px; }
+
 .mb-18 {
   margin-bottom: 18px; }
 
@@ -357,7 +360,8 @@ h2 {
             align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    gap: 91px; }
     @media (max-width: 1023px) {
       .header__main {
         -webkit-box-orient: vertical;
@@ -366,7 +370,8 @@ h2 {
                 flex-direction: column;
         -webkit-box-align: start;
             -ms-flex-align: start;
-                align-items: flex-start; } }
+                align-items: flex-start;
+        gap: 0; } }
   .header__logo {
     gap: 16px;
     display: -webkit-box;
@@ -382,8 +387,7 @@ h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 24px;
-    margin-left: 90px; }
+    gap: 24px; }
     .header__menu :first-child {
       color: #fff; }
     .header__menu a {
@@ -708,4 +712,99 @@ h2 {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column; } }
+
+.artist-bg {
+  background-image: url(../images/MortenHarket.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.artist-btn {
+  width: 200px;
+  padding: 20px 30px 20px 67px;
+  font-size: 12.8px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  color: #fff; }
+
+.play-btn {
+  position: relative;
+  background-color: #5328a1; }
+  .play-btn::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/play-button.svg);
+    left: 31px;
+    width: 20px;
+    height: 20px; }
+
+.like-btn {
+  position: relative;
+  background-color: #95390c; }
+  .like-btn::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/heart.svg);
+    left: 31px;
+    width: 20px;
+    height: 20px; }
+
+.track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  line-height: 19.2px; }
+  .track__cover {
+    width: 55px;
+    height: 55px;
+    margin-right: 16px; }
+  .track__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .track__title {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+.track-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 25px; }
+  @media (max-width: 767px) {
+    .track-grid {
+      -ms-grid-columns: 1fr;
+          grid-template-columns: 1fr; } }
+
+.discography-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 25px; }
 /*# sourceMappingURL=app.css.map */
