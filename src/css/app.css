@@ -314,6 +314,9 @@ h2 {
 .mr-24 {
   margin-right: 24px; }
 
+.mb-15 {
+  margin-bottom: 15px; }
+
 .mb-16 {
   margin-bottom: 16px; }
 
@@ -688,7 +691,7 @@ h2 {
         width: 50%; } }
     @media (max-width: 767px) {
       .footer__column {
-        width: 80%; } }
+        width: 100%; } }
   .footer__heading {
     font-weight: bold;
     font-size: 18px;
