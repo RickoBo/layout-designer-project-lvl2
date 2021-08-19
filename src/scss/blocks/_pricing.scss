@@ -26,8 +26,7 @@
     flex-direction: column;
     width: 30.5%;
 
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding: 1.5rem;
     border-radius: 1rem;
 
     color: $white;
@@ -53,7 +52,6 @@
   }
 
   &__title {
-    margin-top: 16px;
     margin-bottom: 200px;
 
     color: $white;
@@ -105,10 +103,19 @@
   }
 
   &__footer {
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 
     font-size: 13px;
     line-height: 1.5;
     text-align: center;
+  }
+
+  &__description {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    @media (max-width: 767px) {
+      margin-top: 0;
+    }
   }
 }

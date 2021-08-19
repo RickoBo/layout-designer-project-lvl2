@@ -567,8 +567,7 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 30.5%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     color: #fff;
     background-repeat: no-repeat;
@@ -586,7 +585,6 @@ h2 {
       .pricing__item {
         width: 100%; } }
   .pricing__title {
-    margin-top: 16px;
     margin-bottom: 200px;
     color: #fff;
     font-weight: normal;
@@ -624,10 +622,17 @@ h2 {
     margin-bottom: 65px;
     text-decoration: none; }
   .pricing__footer {
-    margin-bottom: 64px;
+    margin-bottom: 40px;
     font-size: 13px;
     line-height: 1.5;
     text-align: center; }
+  .pricing__description {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px; }
+    @media (max-width: 767px) {
+      .pricing__description {
+        margin-top: 0; } }
 
 .news__item {
   display: -webkit-box;
