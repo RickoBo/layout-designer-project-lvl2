@@ -164,10 +164,14 @@ h2 {
   margin: 0 auto; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .container {
-      max-width: 768px; } }
+      max-width: 100%;
+      padding-right: 20px;
+      padding-left: 20px; } }
   @media (min-width: 425px) and (max-width: 767px) {
     .container {
-      max-width: 425px; } }
+      max-width: 100%;
+      padding-right: 20px;
+      padding-left: 20px; } }
   @media (min-width: 375px) and (max-width: 424px) {
     .container {
       max-width: 100%;
@@ -175,7 +179,9 @@ h2 {
       padding-left: 20px; } }
   @media (min-width: 320px) and (max-width: 374px) {
     .container {
-      max-width: 320px; } }
+      max-width: 100%;
+      padding-right: 20px;
+      padding-left: 20px; } }
 
 .d-flex {
   display: -webkit-box;
