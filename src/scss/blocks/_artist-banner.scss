@@ -20,13 +20,15 @@
 
   width: 200px;
   height: 62px;
-  padding: 20px 30px 20px 67px;
+  padding: 20px 30px 20px 30px;
   font-size: 12px;
   text-transform: uppercase;
   border-radius: 5px;
   border: none;
 
   color: $white;
+  display: flex;
+  gap: 20px;
 }
 
 .play-btn {
@@ -34,10 +36,10 @@
   background-color: $purple;
 
   &::before {
-    position: absolute;
+    position: relative;
 
     background-image: url(../images/play-button.svg);
-    left: 31px;
+
     width: 20px;
     height: 20px;
     content: "";
@@ -49,10 +51,10 @@
   background-color: $red;
 
   &::before {
-    position: absolute;
+    position: relative;
 
     background-image: url(../images/heart.svg);
-    left: 31px;
+
     width: 20px;
     height: 20px;
     content: "";
