@@ -234,8 +234,8 @@ h2 {
 .w-50 {
   width: 50%; }
 
-.w-100 {
-  width: 100%; }
+.mw-100 {
+  max-width: 100%; }
 
 .gap-24 {
   gap: 24px; }
@@ -261,11 +261,12 @@ h2 {
             flex-direction: column; } }
 
 .btn-download {
-  width: 25%;
-  height: 53px;
+  padding: 16px 40px;
   border: none;
   border-radius: 32px;
+  font-size: 12.8px;
   color: #fff;
+  font-weight: normal;
   background-color: #95390c; }
 
 .padding-vertical-200 {
@@ -305,6 +306,9 @@ h2 {
 .mt-48 {
   margin-top: 48px; }
 
+.mt-14 {
+  margin-top: 14px; }
+
 .mr-16 {
   margin-right: 16px; }
 
@@ -334,6 +338,9 @@ h2 {
 
 .mb-45 {
   margin-bottom: 45px; }
+
+.mb-100 {
+  margin-bottom: 100px; }
 
 .header {
   position: absolute;

@@ -122,8 +122,8 @@ h2 {
   width: 50%;
 }
 
-.w-100 {
-  width: 100%;
+.mw-100 {
+  max-width: 100%;
 }
 
 .gap-24 {
@@ -153,13 +153,13 @@ h2 {
 }
 
 .btn-download {
-  width: 25%;
-  height: 53px;
+  padding: 16px 40px;
 
   border: none;
   border-radius: 32px;
-
+  font-size: 12.8px;
   color: $white;
+  font-weight: normal;
 
   background-color: #95390c;
 }
