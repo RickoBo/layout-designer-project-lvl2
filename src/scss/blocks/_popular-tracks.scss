@@ -23,3 +23,30 @@
     text-transform: uppercase;
   }
 }
+
+.album {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: none;
+  }
+
+  &__year {
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray;
+  }
+
+  &__image {
+    max-width: 100%;
+    margin-bottom: 18px;
+
+    @media (max-width: 767px) {
+      width: 137px;
+    }
+  }
+}
