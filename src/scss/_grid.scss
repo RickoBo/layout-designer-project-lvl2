@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-
   column-gap: 50px;
   margin-right: 50px;
   row-gap: 25px;
@@ -23,5 +22,6 @@
 
   @media (max-width: 767px) {
     grid-template-columns: 1fr 1fr;
+    margin-right: 0;
   }
 }

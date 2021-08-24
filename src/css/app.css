@@ -160,14 +160,16 @@ h2 {
 
 .container {
   min-width: 320px;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .container {
       max-width: 768px; } }
   @media (min-width: 425px) and (max-width: 767px) {
     .container {
-      max-width: 425px; } }
+      max-width: 425px;
+      padding-right: 20px;
+      padding-left: 20px; } }
   @media (min-width: 375px) and (max-width: 424px) {
     .container {
       max-width: 100%;
@@ -845,8 +847,8 @@ h2 {
   .album__title {
     font-size: 18px;
     line-height: 27px;
-    font-weight: bold;
-    text-transform: none; }
+    font-weight: 700;
+    text-transform: capitalize; }
   .album__year {
     font-size: 16px;
     line-height: 24px;
@@ -856,7 +858,8 @@ h2 {
     margin-bottom: 18px; }
     @media (max-width: 767px) {
       .album__image {
-        width: 137px; } }
+        width: 137px;
+        height: 137px; } }
 
 .track-grid {
   display: -ms-grid;
@@ -889,5 +892,6 @@ h2 {
   @media (max-width: 767px) {
     .grid-4 {
       -ms-grid-columns: 1fr 1fr;
-          grid-template-columns: 1fr 1fr; } }
+          grid-template-columns: 1fr 1fr;
+      margin-right: 0; } }
 /*# sourceMappingURL=app.css.map */
