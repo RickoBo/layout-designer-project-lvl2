@@ -24,7 +24,7 @@
   &__item {
     display: flex;
     flex-direction: column;
-    width: 30.55%;
+    width: 30.5%;
 
     padding: 1.5rem;
     border-radius: 1rem;
@@ -70,7 +70,7 @@
   .price {
     line-height: 1em;
     font-size: 64px;
-    margin-right: 14px;
+    margin-right: 16px;
   }
 
   &__value {
@@ -82,10 +82,8 @@
   }
 
   &__button {
-    padding: 20px 30px;
     height: 66px;
     border: 1px solid $white;
-    border-radius: 5px;
 
     color: #fff;
 
@@ -105,13 +103,14 @@
   &__footer {
     margin-bottom: 40px;
 
-    font-size: 13px;
+    font-size: 12.8px;
     line-height: 1.5;
     text-align: center;
   }
 
   &__description {
     font-size: 16px;
+    line-height: 24px;
     text-align: center;
     margin-top: 40px;
     @media (max-width: 767px) {
