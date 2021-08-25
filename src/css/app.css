@@ -548,9 +548,6 @@ h2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
@@ -582,7 +579,7 @@ h2 {
         width: 80%; } }
     @media (min-width: 375px) and (max-width: 424px) {
       .pricing__item {
-        width: 99.5%; } }
+        width: 90%; } }
     @media (min-width: 320px) and (max-width: 374px) {
       .pricing__item {
         width: 100%; } }
