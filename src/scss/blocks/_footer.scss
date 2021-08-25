@@ -3,7 +3,7 @@
 }
 
 .footer {
-  padding-top: 61px;
+  padding-top: 62px;
   padding-bottom: 48px;
 
   @media (max-width: 1023px) {
@@ -18,7 +18,7 @@
       margin-bottom: 66px;
       flex-wrap: wrap;
       width: 100%;
-      gap: 30px;
+      gap: 31px;
     }
   }
 
@@ -41,7 +41,7 @@
   }
 
   &__heading {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
@@ -68,7 +68,7 @@
       gap: 16px;
       display: flex;
       flex-direction: column;
-      margin-right: 15px;
+      margin-right: 16px;
     }
   }
 }

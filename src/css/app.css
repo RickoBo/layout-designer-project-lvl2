@@ -329,8 +329,8 @@ h2 {
 .pb-50 {
   padding-bottom: 50px; }
 
-.mt-2 {
-  margin-top: 2px; }
+.mt-3 {
+  margin-top: 3px; }
 
 .mt-48 {
   margin-top: 48px; }
@@ -725,7 +725,7 @@ h2 {
   background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%); }
 
 .footer {
-  padding-top: 61px;
+  padding-top: 62px;
   padding-bottom: 48px; }
   @media (max-width: 1023px) {
     .footer {
@@ -742,7 +742,7 @@ h2 {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
-        gap: 30px; } }
+        gap: 31px; } }
   .footer__column {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -761,7 +761,7 @@ h2 {
       .footer__column {
         width: 100%; } }
   .footer__heading {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
@@ -787,7 +787,7 @@ h2 {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        margin-right: 15px; } }
+        margin-right: 16px; } }
 
 .artist-bg {
   background-image: url(../images/MortenHarket.png);
