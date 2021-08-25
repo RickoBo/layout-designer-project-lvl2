@@ -42,7 +42,7 @@
   &__text {
     color: $dark-gray;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 24px;
   }
 
   &__footer {
@@ -51,6 +51,7 @@
 
     font-size: 12.8px;
     line-height: 19px;
+    margin-bottom: 60px;
   }
 
   &__author {
@@ -59,13 +60,9 @@
   }
 
   &__button {
-    width: 135px;
-    height: 53px;
-    padding: 16px 30px;
     border: 1px solid $dark-gray;
-    border-radius: 5px;
 
-    color: #8c8c8c;
+    color: $gray;
 
     font-size: 12px;
 
