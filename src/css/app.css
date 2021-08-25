@@ -288,7 +288,8 @@ h2 {
   background-color: #95390c; }
 
 .padding-vertical-200 {
-  padding: 200px 0 200px; }
+  padding-top: 200px;
+  padding-bottom: 200px; }
 
 .padding-vertical-100 {
   padding-top: 100px;
@@ -308,6 +309,9 @@ h2 {
 
 .pb-15 {
   padding-bottom: 15px; }
+
+.pb-16 {
+  padding-bottom: 16px; }
 
 .pb-25 {
   padding-bottom: 25px; }
