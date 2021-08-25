@@ -722,20 +722,19 @@ h2 {
   background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%); }
 
 .footer {
-  padding-top: 3rem;
-  padding-bottom: 2rem; }
+  padding-top: 3.5em;
+  padding-bottom: 2.5em; }
   .footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    gap: 40px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        width: 100%; } }
+        width: 100%;
+        gap: 0; } }
   .footer__column {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -762,9 +761,11 @@ h2 {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none; }
+  .footer__divider {
+    margin: 0; }
   .footer__menu {
-    gap: 16px;
-    padding-top: 30px; }
+    gap: 18px;
+    padding-top: 40px; }
     @media (max-width: 767px) {
       .footer__menu {
         display: -webkit-box;

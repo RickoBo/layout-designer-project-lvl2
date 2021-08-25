@@ -3,15 +3,16 @@
 }
 
 .footer {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 3.5em;
+  padding-bottom: 2.5em;
 
   &__wrapper {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
     @media (max-width: 1023px) {
       flex-wrap: wrap;
       width: 100%;
+      gap: 0;
     }
   }
 
@@ -44,9 +45,13 @@
     text-decoration: none;
   }
 
+  &__divider {
+    margin: 0;
+  }
+
   &__menu {
-    gap: 16px;
-    padding-top: 30px;
+    gap: 18px;
+    padding-top: 40px;
 
     @media (max-width: 767px) {
       display: flex;
