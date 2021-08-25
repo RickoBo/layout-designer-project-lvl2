@@ -722,19 +722,25 @@ h2 {
   background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%); }
 
 .footer {
-  padding-top: 3.5em;
-  padding-bottom: 2.5em; }
+  padding-top: 62px;
+  padding-bottom: 48px; }
+  @media (max-width: 1023px) {
+    .footer {
+      padding-top: 65px;
+      padding-bottom: 74px; } }
   .footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 40px; }
+    gap: 40px;
+    margin-bottom: 72px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
+        margin-bottom: 65px;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
-        gap: 0; } }
+        gap: 30px; } }
   .footer__column {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -768,6 +774,7 @@ h2 {
     padding-top: 40px; }
     @media (max-width: 767px) {
       .footer__menu {
+        gap: 16px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;

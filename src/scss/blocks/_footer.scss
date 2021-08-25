@@ -3,16 +3,23 @@
 }
 
 .footer {
-  padding-top: 3.5em;
-  padding-bottom: 2.5em;
+  padding-top: 62px;
+  padding-bottom: 48px;
+
+  @media (max-width: 1023px) {
+    padding-top: 65px;
+    padding-bottom: 74px;
+  }
 
   &__wrapper {
     display: flex;
     gap: 40px;
+    margin-bottom: 72px;
     @media (max-width: 1023px) {
+      margin-bottom: 65px;
       flex-wrap: wrap;
       width: 100%;
-      gap: 0;
+      gap: 30px;
     }
   }
 
@@ -54,6 +61,7 @@
     padding-top: 40px;
 
     @media (max-width: 767px) {
+      gap: 16px;
       display: flex;
       flex-direction: column;
     }
