@@ -246,8 +246,8 @@ h2 {
 .gap-24 {
   gap: 24px; }
 
-.gap-50 {
-  gap: 50px; }
+.gap-40 {
+  gap: 40px; }
 
 @media (max-width: 1023px) {
   .order-lg {
@@ -272,10 +272,10 @@ h2 {
   border-radius: 5px; }
 
 .btn-download {
-  padding: 17px 40px;
+  padding: 20px 40px;
   border: none;
   border-radius: 32px;
-  font-size: 12.8px;
+  font-size: 13px;
   color: #fff;
   font-weight: normal;
   background-color: #95390c; }
@@ -291,7 +291,7 @@ h2 {
   padding-top: 45px; }
 
 .pt-65 {
-  padding-top: 75px; }
+  padding-top: 64px; }
 
 .pt-80 {
   padding-top: 80px; }
@@ -323,8 +323,8 @@ h2 {
 .mb-40 {
   margin-bottom: 40px; }
 
-.mt-14 {
-  margin-top: 14px; }
+.mt-16 {
+  margin-top: 16px; }
 
 .mr-16 {
   margin-right: 16px; }
