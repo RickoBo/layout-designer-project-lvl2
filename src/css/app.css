@@ -565,7 +565,7 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 30.58%;
+    max-width: 370px;
     padding: 0 1.5rem;
     border-radius: 1rem;
     color: #fff;
