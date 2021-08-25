@@ -565,7 +565,7 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 370px;
+    width: 370px;
     padding: 0 1.5rem;
     border-radius: 1rem;
     color: #fff;
@@ -682,18 +682,23 @@ h2 {
   display: flex;
   gap: 16px;
   font-size: 12.8px;
-  line-height: 19px;
-  margin-bottom: 60px; }
+  line-height: 19px; }
 
 .news__author {
   color: #f89202;
   text-transform: uppercase; }
 
 .news__button {
+  height: 53px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: 1px solid #cacaca;
   color: #e0e0e0;
   font-size: 12px;
-  text-align: center;
   text-transform: uppercase;
   text-decoration: none; }
 
