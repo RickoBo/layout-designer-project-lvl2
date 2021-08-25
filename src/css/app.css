@@ -568,7 +568,7 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 30.5%;
+    width: 30.58%;
     padding: 0 1.5rem;
     border-radius: 1rem;
     color: #fff;
@@ -621,7 +621,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     background: transparent;
-    margin-bottom: 65px;
+    margin-bottom: 64px;
     text-decoration: none; }
   .pricing__footer {
     margin-bottom: 64px;
