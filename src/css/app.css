@@ -738,7 +738,7 @@ h2 {
     margin-bottom: 72px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
-        margin-bottom: 68px;
+        margin-bottom: 66px;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
