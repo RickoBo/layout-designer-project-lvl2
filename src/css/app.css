@@ -295,9 +295,6 @@ h2 {
   padding-top: 100px;
   padding-bottom: 100px; }
 
-.pt-16 {
-  padding-top: 16px; }
-
 .pt-45 {
   padding-top: 45px; }
 
@@ -313,8 +310,9 @@ h2 {
 .pb-15 {
   padding-bottom: 15px; }
 
-.pb-16 {
-  padding-bottom: 16px; }
+@media (max-width: 767px) {
+  .pb-16 {
+    padding-bottom: 16px; } }
 
 .pb-25 {
   padding-bottom: 25px; }
