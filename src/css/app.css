@@ -726,8 +726,7 @@ h2 {
   padding-bottom: 48px; }
   @media (max-width: 1023px) {
     .footer {
-      padding-top: 65px;
-      padding-bottom: 74px; } }
+      padding-top: 64px; } }
   .footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -736,7 +735,7 @@ h2 {
     margin-bottom: 72px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
-        margin-bottom: 65px;
+        margin-bottom: 67px;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
