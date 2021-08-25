@@ -700,6 +700,7 @@ h2 {
   text-transform: uppercase; }
 
 .news__button {
+  padding: 16px 30px;
   height: 53px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
