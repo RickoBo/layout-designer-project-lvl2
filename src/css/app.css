@@ -162,6 +162,11 @@ h2 {
   min-width: 320px;
   max-width: 1200px;
   margin: 0 auto; }
+  @media (min-width: 1024px) and (max-width: 1239px) {
+    .container {
+      max-width: 1024px;
+      padding-right: 20px;
+      padding-left: 20px; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .container {
       max-width: 768px;
@@ -561,6 +566,7 @@ h2 {
   background-image: url(../images/subscribe_3.png); }
 
 .pricing {
+  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -583,7 +589,7 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 370px;
+    max-width: 367px;
     padding: 0 1.5rem;
     border-radius: 1rem;
     color: #fff;
@@ -761,7 +767,7 @@ h2 {
       .footer__column {
         width: 100%; } }
   .footer__heading {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
@@ -903,8 +909,8 @@ h2 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (minmax(200px, 550px))[2];
+      grid-template-columns: repeat(2, minmax(200px, 550px));
   -ms-grid-rows: (1fr)[3];
       grid-template-rows: repeat(3, 1fr);
   -webkit-column-gap: 50px;

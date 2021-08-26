@@ -1,7 +1,7 @@
 .track-grid {
   display: grid;
   justify-content: start;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(200px, 550px));
   grid-template-rows: repeat(3, 1fr);
   column-gap: 50px;
   row-gap: 25px;
