@@ -161,7 +161,9 @@ h2 {
 .container {
   min-width: 320px;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px; }
   @media (min-width: 1024px) and (max-width: 1239px) {
     .container {
       max-width: 1024px;
@@ -566,7 +568,6 @@ h2 {
   background-image: url(../images/subscribe_3.png); }
 
 .pricing {
-  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -589,7 +590,7 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 367px;
+    width: 370px;
     padding: 0 1.5rem;
     border-radius: 1rem;
     color: #fff;
@@ -603,7 +604,7 @@ h2 {
         width: 80%; } }
     @media (min-width: 375px) and (max-width: 424px) {
       .pricing__item {
-        width: 90%; } }
+        width: 100%; } }
     @media (min-width: 320px) and (max-width: 374px) {
       .pricing__item {
         width: 100%; } }
