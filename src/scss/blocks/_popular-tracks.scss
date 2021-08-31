@@ -42,7 +42,8 @@
   }
 
   &__image {
-    max-width: 100%;
+    max-width: 250px;
+    max-height: 250px;
     margin-bottom: 18px;
 
     @media (max-width: 767px) {

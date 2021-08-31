@@ -103,6 +103,7 @@
   }
 
   &__footer {
+    height: 57px;
     margin-bottom: 64px;
 
     font-size: 13px;
@@ -115,8 +116,5 @@
     line-height: 24px;
     text-align: center;
     margin-top: 40px;
-    @media (max-width: 767px) {
-      margin-top: 0;
-    }
   }
 }

@@ -646,6 +646,7 @@ h2 {
     margin-bottom: 64px;
     text-decoration: none; }
   .pricing__footer {
+    height: 57px;
     margin-bottom: 64px;
     font-size: 13px;
     line-height: 1.5;
@@ -655,9 +656,6 @@ h2 {
     line-height: 24px;
     text-align: center;
     margin-top: 40px; }
-    @media (max-width: 767px) {
-      .pricing__description {
-        margin-top: 0; } }
 
 .news__item {
   display: -webkit-box;
@@ -897,7 +895,8 @@ h2 {
     line-height: 24px;
     color: #e0e0e0; }
   .album__image {
-    max-width: 100%;
+    max-width: 250px;
+    max-height: 250px;
     margin-bottom: 18px; }
     @media (max-width: 767px) {
       .album__image {
@@ -925,8 +924,8 @@ h2 {
 .grid-4 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (minmax(137px, 250px))[4];
+      grid-template-columns: repeat(4, minmax(137px, 250px));
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
   -webkit-column-gap: 50px;
