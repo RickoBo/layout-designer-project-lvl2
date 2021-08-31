@@ -13,9 +13,7 @@
 .pricing {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: space-between;
-
   @media (max-width: 767px) {
     justify-content: center;
     gap: 50px;
@@ -24,7 +22,7 @@
   &__item {
     display: flex;
     flex-direction: column;
-    width: 370px;
+    flex: 0 1 366px;
 
     padding: 0 1.5rem;
     border-radius: 1rem;
