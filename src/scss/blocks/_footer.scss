@@ -3,11 +3,21 @@
 }
 
 .footer {
-  padding-top: 62px;
+  padding-top: 63px;
   padding-bottom: 48px;
 
   @media (max-width: 1023px) {
     padding-top: 64px;
+  }
+
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+
+    @media (max-width: 1240px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 
   &__wrapper {
@@ -15,10 +25,10 @@
     gap: 40px;
     margin-bottom: 72px;
     @media (max-width: 1023px) {
-      margin-bottom: 66px;
+      margin-bottom: 68px;
       flex-wrap: wrap;
       width: 100%;
-      gap: 31px;
+      gap: 30px;
     }
   }
 
@@ -26,10 +36,6 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-
-    &:nth-child(3) {
-      margin-bottom: 2px;
-    }
 
     @media (min-width: 768px) and (max-width: 1023px) {
       width: 50%;
