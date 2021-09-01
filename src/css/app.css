@@ -760,7 +760,7 @@ h2 {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
-        gap: 30px; } }
+        gap: 31px; } }
   .footer__column {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -778,7 +778,7 @@ h2 {
         width: 100%; } }
   .footer__heading {
     margin-bottom: 14px;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase; }
