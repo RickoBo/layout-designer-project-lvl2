@@ -891,7 +891,7 @@ h2 {
   .album__title {
     font-size: 18px;
     line-height: 27px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: capitalize; }
   .album__year {
     font-size: 16px;
