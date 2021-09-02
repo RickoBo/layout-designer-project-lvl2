@@ -746,7 +746,7 @@ h2 {
     margin-bottom: 72px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
-        margin-bottom: 66px;
+        margin-bottom: 67px;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
@@ -891,7 +891,7 @@ h2 {
   .album__title {
     font-size: 18px;
     line-height: 27px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: capitalize; }
   .album__year {
     font-size: 16px;
