@@ -730,7 +730,7 @@ h2 {
   padding-bottom: 48px; }
   @media (max-width: 1023px) {
     .footer {
-      padding-top: 64px; } }
+      padding-top: 65px; } }
   .footer .container {
     padding-left: 0;
     padding-right: 0; }
@@ -746,7 +746,7 @@ h2 {
     margin-bottom: 72px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
-        margin-bottom: 67px;
+        margin-bottom: 66px;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
