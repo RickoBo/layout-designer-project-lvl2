@@ -726,7 +726,7 @@ h2 {
   background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%); }
 
 .footer {
-  padding-top: 62px;
+  padding-top: 63px;
   padding-bottom: 48px; }
   .footer .container {
     padding-left: 0;
@@ -740,7 +740,7 @@ h2 {
     display: -ms-flexbox;
     display: flex;
     gap: 40px;
-    margin-bottom: 64px; }
+    margin-bottom: 66px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
         -ms-flex-wrap: wrap;
@@ -770,9 +770,6 @@ h2 {
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase; }
-    @media (max-width: 767px) {
-      .footer__heading {
-        margin-bottom: 16px; } }
   .footer__link {
     color: #e0e0e0;
     font-weight: normal;
