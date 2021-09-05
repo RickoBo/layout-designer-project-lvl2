@@ -21,6 +21,7 @@
     gap: 40px;
     margin-bottom: 72px;
     @media (max-width: 1023px) {
+      margin-bottom: 66px;
       flex-wrap: wrap;
       width: 100%;
       gap: 30px;
@@ -32,8 +33,12 @@
     flex-direction: column;
     width: 25%;
 
-    &:nth-child(3) {
+    &:nth-child(2) {
       margin-bottom: 2px;
+    }
+
+    &:nth-child(2) {
+      margin-bottom: 1px;
     }
 
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -51,6 +56,10 @@
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase;
+
+    @media (max-width: 767px) {
+      margin-bottom: 15px;
+    }
   }
 
   &__link {
@@ -76,4 +85,7 @@
       margin-right: 16px;
     }
   }
+}
+.contacts {
+  margin-bottom: 14px;
 }
