@@ -778,7 +778,7 @@ h2 {
     text-transform: uppercase; }
     @media (max-width: 767px) {
       .footer__heading {
-        margin-bottom: 15px; } }
+        margin-bottom: 16px; } }
   .footer__link {
     color: #e0e0e0;
     font-weight: normal;
