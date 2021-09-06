@@ -200,6 +200,9 @@ h2 {
       -ms-flex-align: center;
           align-items: center; }
 
+.align-middle {
+  vertical-align: middle; }
+
 .justify-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -743,10 +746,9 @@ h2 {
     display: -ms-flexbox;
     display: flex;
     gap: 40px;
-    margin-bottom: 75px; }
+    margin-bottom: 72px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
-        margin-bottom: 66px;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 100%;
@@ -767,7 +769,7 @@ h2 {
       .footer__column {
         width: 100%; } }
   .footer__heading {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
