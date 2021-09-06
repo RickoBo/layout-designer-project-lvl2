@@ -6,6 +6,10 @@
   padding-top: 62px;
   padding-bottom: 48px;
 
+  @media (max-width: 414px) {
+    padding-top: 63px;
+  }
+
   .container {
     padding-left: 0;
     padding-right: 0;

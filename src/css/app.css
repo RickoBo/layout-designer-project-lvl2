@@ -734,6 +734,9 @@ h2 {
 .footer {
   padding-top: 62px;
   padding-bottom: 48px; }
+  @media (max-width: 414px) {
+    .footer {
+      padding-top: 63px; } }
   .footer .container {
     padding-left: 0;
     padding-right: 0; }
