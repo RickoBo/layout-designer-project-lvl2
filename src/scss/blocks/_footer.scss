@@ -23,7 +23,7 @@
   &__wrapper {
     display: flex;
     gap: 40px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
     @media (max-width: 1023px) {
       flex-wrap: wrap;
       width: 100%;
@@ -46,14 +46,11 @@
   }
 
   &__heading {
-    margin-bottom: 14px;
+    padding-bottom: 14px;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase;
-    @media (max-width: 767px) {
-      margin-bottom: 18px;
-    }
   }
 
   &__link {
@@ -79,7 +76,4 @@
       margin-right: 16px;
     }
   }
-}
-.contacts {
-  margin-bottom: 14px;
 }
