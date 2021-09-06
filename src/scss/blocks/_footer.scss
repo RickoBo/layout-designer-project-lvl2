@@ -6,6 +6,10 @@
   padding-top: 63px;
   padding-bottom: 48px;
 
+  @media (max-width: 414px) {
+    padding-top: 64px;
+  }
+
   .container {
     padding-left: 0;
     padding-right: 0;
@@ -48,7 +52,7 @@
     line-height: 27px;
     text-transform: uppercase;
     @media (max-width: 767px) {
-      margin-bottom: 16px;
+      margin-bottom: 15px;
     }
   }
 
