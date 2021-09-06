@@ -238,6 +238,9 @@ h2 {
 .fz-60 {
   font-size: 60px; }
 
+.lh-24 {
+  line-height: 24px; }
+
 .lh-60 {
   line-height: 60px; }
 
@@ -734,9 +737,6 @@ h2 {
 .footer {
   padding-top: 62px;
   padding-bottom: 48px; }
-  @media (max-width: 414px) {
-    .footer {
-      padding-top: 63px; } }
   .footer .container {
     padding-left: 0;
     padding-right: 0; }
@@ -765,11 +765,6 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 25%; }
-    @media (max-width: 414px) {
-      .footer__column:nth-child(2) {
-        margin-bottom: 2px; }
-      .footer__column:nth-child(3) {
-        margin-bottom: 2px; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       .footer__column {
         width: 50%; } }
