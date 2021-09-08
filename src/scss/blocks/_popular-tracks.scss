@@ -25,10 +25,8 @@
 }
 
 .album {
-  display: flex;
-  flex-direction: column;
-
   &__title {
+    margin-top: 18px;
     font-size: 18px;
     line-height: 27px;
     font-weight: 700;
@@ -42,9 +40,9 @@
   }
 
   &__image {
+    display: block;
     max-width: 250px;
     max-height: 250px;
-    margin-bottom: 18px;
 
     @media (max-width: 767px) {
       width: 137px;

@@ -11,14 +11,14 @@
   }
 }
 
-.grid-4 {
+.grid-discography {
   display: grid;
-  grid-template-columns: repeat(4, minmax(137px, 250px));
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, 250px);
+
   column-gap: 50px;
   row-gap: 25px;
 
   @media (max-width: 767px) {
-    grid-template-columns: repeat(2, 137px);
+    grid-template-columns: repeat(auto-fit, 137px);
   }
 }

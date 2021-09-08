@@ -11,7 +11,7 @@
     }
   }
 
-  &__wrapper {
+  &__top {
     display: flex;
     gap: 40px;
     padding-top: 62px;
@@ -51,15 +51,15 @@
     text-decoration: none;
   }
 
-  &__divider {
-    margin: 0;
+  &__bottom {
+    border-top: solid 1px $white;
+    padding-top: 40px;
+    padding-bottom: 48px;
   }
 
   &__menu {
-    border-top: solid 1px $white;
+    display: flex;
     gap: 18px;
-    padding-top: 40px;
-    padding-bottom: 48px;
 
     @media (max-width: 767px) {
       gap: 16px;
