@@ -1,10 +1,5 @@
-.bg-gradient {
-  background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%);
-}
-
 .footer {
-  padding-top: 61px;
-  padding-bottom: 48px;
+  background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%);
 
   .container {
     padding-left: 0;
@@ -19,7 +14,8 @@
   &__wrapper {
     display: flex;
     gap: 40px;
-    margin-bottom: 72px;
+    padding-top: 61px;
+    padding-bottom: 72px;
     @media (max-width: 1023px) {
       flex-wrap: wrap;
       width: 100%;
@@ -28,8 +24,6 @@
   }
 
   &__column {
-    display: flex;
-    flex-direction: column;
     width: 25%;
 
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -64,6 +58,7 @@
   &__menu {
     gap: 18px;
     padding-top: 40px;
+    padding-bottom: 48px;
 
     @media (max-width: 767px) {
       gap: 16px;
