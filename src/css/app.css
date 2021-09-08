@@ -745,7 +745,7 @@ h2 {
     display: -ms-flexbox;
     display: flex;
     gap: 40px;
-    padding-top: 61px;
+    padding-top: 62px;
     padding-bottom: 72px; }
     @media (max-width: 1023px) {
       .footer__wrapper {
@@ -776,6 +776,7 @@ h2 {
   .footer__divider {
     margin: 0; }
   .footer__menu {
+    border-top: solid 1px #fff;
     gap: 18px;
     padding-top: 40px;
     padding-bottom: 48px; }
@@ -788,8 +789,7 @@ h2 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                flex-direction: column;
-        margin-right: 16px; } }
+                flex-direction: column; } }
 
 .artist-bg {
   background-image: url(../images/MortenHarket.png);
