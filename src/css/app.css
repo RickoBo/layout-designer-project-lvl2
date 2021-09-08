@@ -772,14 +772,11 @@ h2 {
       .footer__column {
         width: 100%; } }
   .footer__heading {
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase; }
-    @media (max-width: 767px) {
-      .footer__heading {
-        margin-bottom: 15px; } }
   .footer__link {
     color: #e0e0e0;
     font-weight: normal;
@@ -802,9 +799,6 @@ h2 {
             -ms-flex-direction: column;
                 flex-direction: column;
         margin-right: 16px; } }
-
-.contacts {
-  margin-bottom: 14px; }
 
 .artist-bg {
   background-image: url(../images/MortenHarket.png);
