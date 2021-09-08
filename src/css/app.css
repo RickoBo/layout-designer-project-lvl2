@@ -789,7 +789,8 @@ h2 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                flex-direction: column; } }
+                flex-direction: column;
+        margin-right: 16px; } }
 
 .artist-bg {
   background-image: url(../images/MortenHarket.png);
