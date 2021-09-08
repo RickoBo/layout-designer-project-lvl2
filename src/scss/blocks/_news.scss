@@ -26,16 +26,18 @@
   }
 
   &__title {
+    margin-bottom: 30px;
+
     font-weight: normal;
     font-size: 30px;
     line-height: 45px;
     text-transform: capitalize;
-    margin-bottom: 30px;
 
     @media (max-width: 767px) {
+      margin-bottom: 16px;
+
       font-size: 16px;
       line-height: 24px;
-      margin-bottom: 16px;
     }
   }
 
@@ -59,10 +61,10 @@
   }
 
   &__button {
-    padding: 16px 30px;
-    height: 53px;
     display: inline-flex;
     align-items: center;
+    height: 53px;
+    padding: 16px 30px;
     border: 1px solid $dark-gray;
 
     color: $gray;

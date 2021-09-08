@@ -171,16 +171,17 @@ h2 {
 }
 
 .btn-download {
-  height: 53px;
   display: inline-flex;
   align-items: center;
+  height: 53px;
   padding: 16px 40px;
 
   border: none;
   border-radius: 32px;
-  font-size: 12.8px;
+
   color: $white;
   font-weight: normal;
+  font-size: 12.8px;
 
   background-color: #95390c;
 }

@@ -1,7 +1,8 @@
 .track {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
   font-size: 12.8px;
   line-height: 19.2px;
 
@@ -27,26 +28,28 @@
 .album {
   &__title {
     margin-top: 18px;
-    font-size: 16px;
-    line-height: 27px;
+
     font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
     text-transform: capitalize;
   }
 
   &__year {
-    font-size: 16px;
-    line-height: 24px;
     color: $gray;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   &__image {
     display: block;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
 
     @media (max-width: 767px) {
-      width: 137px;
-      height: 137px;
+      max-width: 137px;
+      max-height: 137px;
     }
   }
 }

@@ -16,47 +16,54 @@
 
 .artist-btn {
   display: flex;
+
+  gap: 20px;
   align-items: center;
 
   width: 200px;
   height: 62px;
-  padding: 20px 30px 20px 30px;
-  font-size: 12.8px;
-  text-transform: uppercase;
-  border-radius: 5px;
+  padding: 20px 30px;
+
   border: none;
+  border-radius: 5px;
 
   color: $white;
-  display: flex;
-  gap: 20px;
+
+  font-size: 12.8px;
+
+  text-transform: uppercase;
 }
 
 .play-btn {
   position: relative;
+
   background-color: $purple;
 
   &::before {
     position: relative;
 
-    background-image: url(../images/play-button.svg);
-
     width: 20px;
     height: 20px;
+
+    background-image: url(../images/play-button.svg);
+
     content: "";
   }
 }
 
 .like-btn {
   position: relative;
+
   background-color: $red;
 
   &::before {
     position: relative;
 
-    background-image: url(../images/heart.svg);
-
     width: 20px;
     height: 20px;
+
+    background-image: url(../images/heart.svg);
+
     content: "";
   }
 }

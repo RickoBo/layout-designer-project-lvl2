@@ -2,12 +2,12 @@
   background: linear-gradient(89.02deg, #5328a1 32.83%, #95390c 81.56%);
 
   .container {
-    padding-left: 0;
     padding-right: 0;
+    padding-left: 0;
 
     @media (max-width: 1240px) {
-      padding-left: 20px;
       padding-right: 20px;
+      padding-left: 20px;
     }
   }
 
@@ -16,10 +16,11 @@
     gap: 40px;
     padding-top: 62px;
     padding-bottom: 72px;
+
     @media (max-width: 1023px) {
       flex-wrap: wrap;
-      width: 100%;
       gap: 30px;
+      width: 100%;
     }
   }
 
@@ -37,6 +38,7 @@
 
   &__heading {
     margin-bottom: 16px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
@@ -52,9 +54,9 @@
   }
 
   &__bottom {
-    border-top: solid 1px $white;
     padding-top: 40px;
     padding-bottom: 48px;
+    border-top: solid 1px $white;
   }
 
   &__menu {
@@ -62,9 +64,8 @@
     gap: 18px;
 
     @media (max-width: 767px) {
-      gap: 16px;
-      display: flex;
       flex-direction: column;
+      gap: 16px;
       margin-right: 16px;
     }
   }
