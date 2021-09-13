@@ -874,9 +874,9 @@ h2 {
 .album__title {
   margin-top: 18px;
   font-weight: 700;
-  letter-spacing: -1px;
   font-size: 18px;
   line-height: 27px;
+  letter-spacing: -1px;
   text-transform: capitalize; }
 
 .album__year {

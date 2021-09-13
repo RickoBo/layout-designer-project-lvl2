@@ -28,12 +28,13 @@
 .album {
   &__title {
     margin-top: 18px;
+
     font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
 
     letter-spacing: -1px;
 
-    font-size: 18px;
-    line-height: 27px;
     text-transform: capitalize;
   }
 
