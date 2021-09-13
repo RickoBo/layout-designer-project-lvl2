@@ -446,8 +446,6 @@ h2 {
     display: flex;
     -webkit-column-gap: 24px;
             column-gap: 24px; }
-    .header__menu :first-child {
-      color: #fff; }
     .header__menu a {
       color: #cacaca;
       font-size: 11px;
