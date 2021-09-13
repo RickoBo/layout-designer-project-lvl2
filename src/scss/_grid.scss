@@ -21,5 +21,6 @@
 
   @media (max-width: 767px) {
     grid-template-columns: repeat(auto-fit, 137px);
+    grid-template-rows: repeat(auto-fill, 212px);
   }
 }
