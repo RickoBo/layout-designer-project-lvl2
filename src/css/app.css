@@ -924,7 +924,5 @@ h2 {
   @media (max-width: 767px) {
     .grid-discography {
       -ms-grid-columns: (137px)[auto-fit];
-          grid-template-columns: repeat(auto-fit, 137px);
-      -ms-grid-rows: (212px)[auto-fill];
-          grid-template-rows: repeat(auto-fill, 212px); } }
+          grid-template-columns: repeat(auto-fit, 137px); } }
 /*# sourceMappingURL=app.css.map */
