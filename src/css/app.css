@@ -872,10 +872,9 @@ h2 {
     text-transform: uppercase; }
 
 .album__title {
-  font-family: "Roboto", sans-serif;
   margin-top: 18px;
-  letter-spacing: -1px;
   font-weight: 700;
+  letter-spacing: -1px;
   font-size: 18px;
   line-height: 27px;
   text-transform: capitalize; }

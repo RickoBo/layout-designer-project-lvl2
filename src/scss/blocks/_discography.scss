@@ -27,12 +27,11 @@
 
 .album {
   &__title {
-    font-family: "Roboto", sans-serif;
-
     margin-top: 18px;
+    font-weight: 700;
+
     letter-spacing: -1px;
 
-    font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     text-transform: capitalize;
