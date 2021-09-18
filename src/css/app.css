@@ -320,10 +320,6 @@ h2 {
 .pb-15 {
   padding-bottom: 15px; }
 
-@media (max-width: 767px) {
-  .pb-16 {
-    padding-bottom: 16px; } }
-
 .pb-25 {
   padding-bottom: 25px; }
 
@@ -392,7 +388,7 @@ h2 {
   top: 25px;
   right: 0;
   left: 0; }
-  .header__container {
+  .header__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -400,7 +396,7 @@ h2 {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     @media (max-width: 1023px) {
-      .header__container {
+      .header__wrapper {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
